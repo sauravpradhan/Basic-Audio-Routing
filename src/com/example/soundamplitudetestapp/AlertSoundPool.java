@@ -117,8 +117,8 @@ public class AlertSoundPool implements SoundPool.OnLoadCompleteListener {
 		MainActivity.mAm.stopBluetoothSco();
 		MainActivity.mAm.setSpeakerphoneOn(true);
 		MainActivity.mAm.setMode(AudioManager.MODE_NORMAL);
-		MyReceiver.isBTConnected = false;
-		MyReceiver.isWiredHeadsetOn = false;
+		//MyReceiver.isBTConnected = false;
+		//MyReceiver.isWiredHeadsetOn = false;
 	}
 	private void isBTConnected()
 	{
