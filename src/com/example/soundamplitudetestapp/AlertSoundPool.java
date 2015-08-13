@@ -11,7 +11,7 @@ import android.content.Context;
 import android.media.AudioManager;
 import android.media.MediaMetadataRetriever;
 import android.media.SoundPool;
-import android.net.Uri;
+import android.net.Uri;CA
 import android.os.Handler;
 import android.util.Log;
 
@@ -83,7 +83,7 @@ public class AlertSoundPool implements SoundPool.OnLoadCompleteListener {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-			MainActivity.mAm.setMode(AudioManager.MODE_IN_CALL);
+			MainActivity.mAm.setMode(AudioManager.MODE_IN_COMMUNICATION);
 			MainActivity.mAm.setBluetoothScoOn(true);
 			MainActivity.mAm.startBluetoothSco();
 			MainActivity.mAm.setSpeakerphoneOn(false);
